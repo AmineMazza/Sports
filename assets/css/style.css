@@ -3515,6 +3515,7 @@ hr {
   padding-right: 35px;
 }
 
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 98, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_h1-hero.scss */
   .slider-area .hero__caption p {
@@ -4592,48 +4593,6 @@ hr {
 /* line 5, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_footer.scss */
 .footer-area .footer-top .single-footer-caption .footer-logo {
   margin-bottom: 30px;
-}
-/* LOGO POSITION & STYLE */
-.logo {
-    position: absolute;
-    top: 30px;          /* descendre légèrement */
-    left: 40px;        /* mettre bien à gauche */
-    z-index: 999;
-}
-
-.run-logo {
-    height: 70px;      /* Taille parfaite desktop */
-    width: auto;
-    transition: 0.3s ease;
-}
-
-/* effet sportif au survol */
-.run-logo:hover {
-    transform: scale(1.08);
-}
-
-/* FIX SAFE AREA IOS NOTCH */
-.header-area {
-  padding-top: env(safe-area-inset-top);
-}
-
-/* HEADER MOBILE FIX */
-@media (max-width: 768px) {
-  .header-area {
-    height: 70px;
-    padding-top: calc(env(safe-area-inset-top) + 10px);
-  }
-}
-
-@media (max-width: 768px) {
-  .logo {
-    margin-top: 0;
-  }
-}
-@media (max-width: 768px) {
-  .mobile_menu {
-    top: calc(env(safe-area-inset-top) + 12px);
-  }
 }
 
 /* line 13, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_footer.scss */
