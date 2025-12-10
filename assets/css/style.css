@@ -3165,7 +3165,53 @@ hr {
   /* line 50, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_headerMenu.scss */
   .header-area .menu-wrapper .main-menu {
     margin-right: 30px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    background: linear-gradient(to bottom, rgba(130,0,0,0.95), rgba(0,0,0,0.65));
+    padding-top: env(safe-area-inset-top);
   }
+}
+@media(max-width:768px){
+    .logo {
+        position: fixed;
+        top: calc(env(safe-area-inset-top) + 10px);
+        left: 15px;
+        z-index: 10001;
+    }
+}
+@media(max-width:768px){
+
+    .mobile_menu {
+        position: fixed;
+        top: calc(env(safe-area-inset-top) + 20px);
+        right: 16px;
+        z-index: 10001;
+    }
+
+    .slicknav_btn {
+        background: transparent;
+        margin-top: 0;
+    }
+
+    .slicknav_icon-bar {
+        background: red !important;
+        height: 3px;
+    }
+}
+.slider-area {
+    margin-top: calc(env(safe-area-inset-top) + 95px);
+}
+@media(max-width:768px){
+    .hero__caption h1 {
+        font-size: 36px;
+        line-height: 1.2;
+    }
+
+    .hero__caption h2 {
+        font-size: 24px;
+    }
 }
 
 /* line 54, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_headerMenu.scss */
